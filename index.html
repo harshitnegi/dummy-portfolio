@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTMLHints(Portfolio)</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="/bootstrap-5.0.1-dist/css/bootstrap.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body">
-
+  <button id="scroll-to-top">Scroll to top</button>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid"> 
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-white active" aria-current="page" href="#">Experience </a>
+                <a class="nav-link text-white active" aria-current="page" href="#my-exp">Experience </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Work</a>
+                <a class="nav-link text-white" href="#my-work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact</a>
+                <a class="nav-link text-white" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -51,10 +51,10 @@
     </div>
     <div class="px-5 py-5">
       <div class="work py-5">
-        <div class="inner py-5">
-          <p class="mb-0 light-grey-color"><small><strong>WORK EXPERIENCE</strong></small></p>
-          <h2 class="text-white col-md-8 col-12 py-2"><strong>Companies I have worked for in the past.</strong></h2>
-          <div class="d-flex text-white py-4">
+        <div class="inner">
+          <p class="mb-0 light-grey-color" id="my-exp"><small><strong>WORK EXPERIENCE</strong></small></p>
+          <h2 class="text-white col-md-8 col-12 pt-2"><strong>Companies I have worked for in the past.</strong></h2>
+          <div class="d-flex text-white flex-wrap pt-4">
             <div class="col-md-4 col-12">
               <p class="light-grey-color">01</p>
               <p><span class="work-descr col-md-7 col-12" style="color: #3cc74e;">Google</span>, Interactive Designer</p>
@@ -92,19 +92,19 @@
         </div>
     </div>
     <div class="skill-set text-white">
-      <div class="d-flex">
+      <div class="d-flex flex-wrap">
         <div class="col-md-4 col-12 px-5">
           <h2><strong>Skillset</strong></h2>
           <p class="light-grey-color">With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.
           </p>
         </div>
         <div class="col-md-8 col-12 d-flex flex-wrap">
-          <div class="col-6 skills">
+          <div class="col-md-6 col-12 skills">
             <img class="py-4" src="https://uploads-ssl.webflow.com/60670664a9322f4664916537/60670665a9322f21d1916567_Product%20Design.svg" alt="">
             <h3><strong>Product Design</strong></h3>
             <p class="light-grey-color col-8">Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.</p>
           </div>
-          <div class="col-md-6 skills">
+          <div class="col-md-6 col-12 skills">
             <img class="py-4" src="https://uploads-ssl.webflow.com/60670664a9322f4664916537/60670665a9322f4aae916566_Visual%20Design.svg" alt="">
             <h3><strong>Visual Design</strong></h3>
             <p class="light-grey-color col-8">Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.</p>
@@ -126,10 +126,10 @@
   <section class="empty-sec">
   </section>
   <section class="work my-5 px-5">
-    <div class="d-flex">
+    <div class="d-flex flex-wrap">
       <div class="row-1 col-md-6 col-12">
         <div class="row-1-head">
-          <h2 class="col-9 text-white">Work that I’ve done for the past 8 years </h2>
+          <h2 class="col-md-9 col-12 text-white" id="my-work">Work that I’ve done for the past 8 years </h2>
           <p>My projects</p>
         </div>
           <div class="card" style="width: 56rem;">
@@ -191,7 +191,7 @@
   <div class="container">
     <div class="d-flex flex-wrap">
       <div class="col-md-6 col-12">
-        <h2 class="text-white">Let's talk business</h2>
+        <h2 class="text-white" id="contact">Let's talk business</h2>
         <p class="light-grey-color">Now that you know a lot about me, let me know if you are interested to work with me.</p>
       </div>
       <div class="col-md-6 col-12">
@@ -235,12 +235,12 @@
     </div>
   </div>
 </div>
-
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <script src="./script.js" defer> </script>
 
 
 
-  <script src="./js/bootstrap.js"></script>
+  <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
