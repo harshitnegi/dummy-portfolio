@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Sen', sans-serif !important;
+    overflow-x: hidden;
+    background-color: black !important;
+}
+.main h1{
+    font-size: 104px;
+    line-height: 112px;
+}
+h2{
+    font-size: 55px !important;
+    padding-left: 0 !important;
+}
+.main p{
+    font-size: 20px;
+}
+.empty-bg{
+    height: 100vh;
+}
+
+.empty-bg div:nth-child(1){
+    background-color: black;
+}
+.empty-bg div:nth-child(2){
+    background-color: rgb(24,24,35);
+}
+.main > div{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.intro-left-spacing{
+    margin-left: -236px;
+}
+.main span{
+    color: rgb(65, 65, 65);
+ }
+.light-grey-color{
+    color: rgb(132,145,160)
+}
+.work .inner .d-flex .light-grey-color{
+    font-size: 7rem;
+    line-height: 7rem;
+}
+.work .inner .custom-color :nth-child(1){
+    color: #3cc74e;
+}
+.work .inner .custom-color :nth-child(2){
+    color: #609bff;
+}
+.work .inner .work-descr{
+    font-size: 24px;
+    font-weight: 700;
+}
+.philosophy .content-text{
+    background-color: #fff3e4;
+}
+.content-img{
+    padding: 0 !important;
+}
+.content-img img{
+    max-width: 100%;
+}
+.inner-text{
+    padding-top: 100px;
+}
+.inner-text p{
+    color: rgb(91,104,118);
+    font-size: 18px;
+}
+.a-link{
+    padding-top: 220px;
+    color: black;
+}
+.a-link a{
+    color: black;
+}
+.a-link a:hover{
+    color: black;
+    text-decoration: none;
+}
+.a-link a:visited{
+    color: black;
+}
+.skills p{
+    padding: 0;
+}
+.bgcol{
+    background-color: #181823;
+}
+.empty-sec{
+    height: 10vh;
+}
+.proj-button{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-projs{
+    width: 12vw;
+    height: 8vh;
+    background-color: black;
+    border: 2px solid #5221e6;
+}
+.instagram{
+    background-color: #fbe4ff;
+}
+input, textarea{
+    background-color: #181823 !important;
+    border: none;
+    border-radius: unset;
+    color: white !important;
+}
+.custom-btn{
+    background-color: #5221e6;
+}
+.custom-btn:hover{
+    background-color: #4b14ee;
+}
+label{
+    font-family: 'Sen', sans-serif !important ;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .main .intro-left-spacing{
+        margin-left: auto;
+    }
+}
